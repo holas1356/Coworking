@@ -24,3 +24,7 @@ BEGIN
         END IF;
     END LOOP;
 END $$;
+
+SELECT * FROM Workspaces;
+
+SELECT * FROM Rooms;

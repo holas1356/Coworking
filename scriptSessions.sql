@@ -22,3 +22,6 @@ BEGIN
         VALUES (randomSessionName, randomStartTime, randomEndTime, randomMaxCapacity);
     END LOOP;
 END $$;
+
+SELECT * FROM Sessions;
+SELECT COUNT(*) FROM Sessions;
