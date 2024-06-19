@@ -2,8 +2,8 @@
 
 CREATE TABLE Users (
     user_id SERIAL PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    email VARCHAR(100) NOT NULL UNIQUE,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
     password VARCHAR(100) NOT NULL,
     full_name VARCHAR(100),
     phone_number VARCHAR(15),
@@ -57,6 +57,8 @@ CREATE TABLE Reservations (
     status VARCHAR(20) NOT NULL,
     comments TEXT
 );
+
+DROP TABLE Users
 
 
 SELECT * FROM Reservations 
