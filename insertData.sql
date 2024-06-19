@@ -1,0 +1,22 @@
+INSERT INTO Users (username, email, password, full_name, phone_number, role) VALUES
+('mcarter', 'mcarter@gmail.com', 'passMichael123', 'Michael Carter', '3211234567', 'member'),
+('rrogers', 'rrogers@hotmail.com', 'passRachel456', 'Rachel Rogers', '3221234568', 'guest'),
+('pwalker', 'pwalker@gmail.com', 'passPaul789', 'Paul Walker', '3231234569', 'member'),
+('thall', 'thall@outlook.com', 'passTracy012', 'Tracy Hall', '3241234570', 'admin'),
+('ddavis', 'ddavis@gmail.com', 'passDiana345', 'Diana Davis', '3251234571', 'member'),
+('bgreen', 'bgreen@hotmail.com', 'passBrian678', 'Brian Green', '3261234572', 'guest'),
+('swilson', 'swilson@gmail.com', 'passSusan901', 'Susan Wilson', '3271234573', 'member'),
+('klane', 'klane@outlook.com', 'passKenny234', 'Kenny Lane', '3281234574', 'member'),
+('cgray', 'cgray@gmail.com', 'passCynthia567', 'Cynthia Gray', '3291234575', 'member'),
+('dlawson', 'dlawson@hotmail.com', 'passDonald890', 'Donald Lawson', '3301234576', 'guest'),
+('jmartinez', 'jmartinez@gmail.com', 'passJose1234', 'Jose Martinez', '3311234577', 'member'),
+('mlopez', 'mlopez@outlook.com', 'passMaria5678', 'Maria Lopez', '3321234578', 'guest'),
+('ewilliams', 'ewilliams@gmail.com', 'passEdward9101', 'Edward Williams', '3331234579', 'admin'),
+('ahill', 'ahill@hotmail.com', 'passAnna2345', 'Anna Hill', '3341234580', 'guest'),
+('djones', 'djones@gmail.com', 'passDavid6789', 'David Jones', '3351234581', 'member'),
+('lbrown', 'lbrown@outlook.com', 'passLinda0123', 'Linda Brown', '3361234582', 'member'),
+('tjackson', 'tjackson@gmail.com', 'passThomas4567', 'Thomas Jackson', '3371234583', 'member'),
+('klee', 'klee@hotmail.com', 'passKim8901', 'Kim Lee', '3381234584', 'guest'),
+('mwhite', 'mwhite@gmail.com', 'passMark2345', 'Mark White', '3391234585', 'member'),
+('jthompson', 'jthompson@outlook.com', 'passJessica6789', 'Jessica Thompson', '3401234586', 'guest');
+
