@@ -12,7 +12,6 @@ CREATE TABLE Users (
 
 SELECT * FROM users 
 
-DROP TABLE users;
 
 CREATE TABLE Rooms (
     room_id SERIAL PRIMARY KEY,
@@ -36,7 +35,6 @@ CREATE TABLE Workspaces (
     UNIQUE (room_id, row_number, column_number)
 );
 
-DROP TABLE Workspaces
 
 SELECT * FROM Workspaces 
 
@@ -60,7 +58,6 @@ CREATE TABLE Reservations (
     comments TEXT
 );
 
-DROP TABLE Reservations
 
 SELECT * FROM Reservations 
 
